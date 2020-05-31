@@ -1,0 +1,15 @@
+body {
+    background-image: url(../Images/gradientImage.png);
+}
+
+.container-fluid{
+    width: 300px;
+    border: 10px solid white;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+#mainPhoto {
+    width: 200px;
+}
