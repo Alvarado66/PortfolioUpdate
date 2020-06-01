@@ -35,6 +35,22 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.footer {
+   
+    border: 10px solid lightgray;
+    padding: 50px;
+    margin: 20px;
+    clear: both;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+
 
 
 
