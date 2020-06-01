@@ -1,7 +1,6 @@
 body {
-    background-image: url(../Images/gradientImage.png);
-    margin: 0;
-    padding: 0;
+    background-image: url(../Images/ice-cold-blue-to-yellow-gradient-background.jpg);
+    background-size: cover;
 }
 
 .box1 {
@@ -11,6 +10,7 @@ body {
     background-image: url(../Images/62625.jpg);
     display: flex;
     justify-content: center;
+    background-attachment: fixed;
 }
 
 #mainPhoto {
@@ -19,11 +19,20 @@ body {
 
 .container-fluid {
     width: 250px;
-    border: 10px solid #f9f9f9;
     padding: 15px;
-    display: flex;
-    justify-content: center;
+ 
     margin-top: 25px;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.grid-about {
+    width: auto;
+    border: 10px solid lightgrey;
+    padding: 50px;
+    margin: 20px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
