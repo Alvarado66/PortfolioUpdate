@@ -28,8 +28,15 @@ body {
     clear: both;
 }
 
-.aboutSection {
-    text-align: center;
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: ivory;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 70%;
 }
 
 .grid-about {
