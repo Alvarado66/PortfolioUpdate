@@ -9,6 +9,8 @@ body {
     height: 60vh;
     width: inherit;
     background-image: url(../Images/62625.jpg);
+    background-repeat: no-repeat;
+    background-size: inherit;
     display: flex;
     justify-content: center;
     background-attachment: fixed;
@@ -49,10 +51,9 @@ body {
 }
 
 .projectBox {
-    width: 960px;
+    width: 0 auto;
     padding: 15px;
     margin-top: 25px;
-    margin-left: 500px;
     border: 10px solid lightgray;
     clear: both;
     display: flex;
@@ -72,10 +73,9 @@ body {
 } 
 
 .projectBox2 {
-    width: 960px;
+    width: 0 auto;
     padding: 15px;
     margin-top: 25px;
-    margin-left: 500px;
     border: 10px solid lightgray;
     clear: both;
     display: flex;
@@ -95,10 +95,9 @@ body {
 }
 
 .projectBox3 {
-    width: 960px;
+    width: 0 auto;
     padding: 15px;
     margin-top: 25px;
-    margin-left: 500px;
     border: 10px solid lightgray;
     clear: both;
     display: flex;
@@ -114,3 +113,13 @@ body {
     display: flex;
     justify-content: center;
 } 
+
+.container-contact {
+    width: 250px;
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    clear: both;
+    display: flex;
+    justify-content: center;
+}
