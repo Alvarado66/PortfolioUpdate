@@ -37,6 +37,17 @@ body {
     margin-top: 25px;
     margin-bottom: 10px;
     clear: both;
+    
+}
+
+.aboutSection {
+    width: auto;
+    border: 10px solid lightgrey;
+    padding: 50px;
+    margin: 20px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
 .centered {
@@ -68,6 +79,8 @@ body {
     margin: 20px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 .grid-about {
     width: auto;
