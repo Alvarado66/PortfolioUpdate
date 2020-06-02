@@ -28,6 +28,10 @@ body {
     clear: both;
 }
 
+.aboutSection {
+    text-align: center;
+}
+
 .grid-about {
     width: auto;
     border: 10px solid lightgrey;
