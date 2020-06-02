@@ -21,7 +21,6 @@ body {
 .container-fluid {
     width: 250px;
     padding: 15px;
- 
     margin-top: 25px;
     margin-bottom: 10px;
     clear: both;
@@ -47,6 +46,52 @@ body {
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+
+.projectBox {
+    width: 960px;
+    padding: 15px;
+    margin-top: 25px;
+    margin-left: 500px;
+    border: 10px solid lightgray;
+    clear: both;
+    display: flex;
+    justify-content: center;
+   
+}
+
+#projPhoto {
+    width: 720px;
+    clear: both;
+ 
+}
+
+.projButton {
+    display: flex;
+    justify-content: center;
+}
+
+.projectBox2 {
+    width: 960px;
+    padding: 15px;
+    margin-top: 25px;
+    margin-left: 500px;
+    border: 10px solid lightgray;
+    clear: both;
+    display: flex;
+    justify-content: center;
+   
+}
+
+#projPhoto2 {
+    width: 720px;
+    clear: both;
+ 
+}
+
+.projButton2 {
+    display: flex;
+    justify-content: center;
 }
 
 
